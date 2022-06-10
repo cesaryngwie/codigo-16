@@ -1,0 +1,29 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bg {
+    border: solid;
+    height: 300px;
+  }
+.color-red{
+    background-color: red;
+}
+.color-green{
+    background-color: green;
+}
+.bg-img{
+    background: url("../img/lienzo.jpg");
+      /* Estamos diciendo que este div tenga un alto de 500px */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.bg-img-telefono{
+    background: url("../img/fonos.webp");
+    height: 500px;
+    background-size: cover;
+    /*
+      Esto indica que queremos mostrar la parte central de la imagen
+    */
+    background-position: center;
+    background-repeat: no-repeat;
+}

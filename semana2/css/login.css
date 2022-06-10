@@ -1,0 +1,46 @@
+body{
+    background-color:blanchedalmond;
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.contenedor{
+    width: 300px;
+    height: 300px;
+    margin: 100px auto;
+    background-color: rgb(235, 234, 223);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+
+}
+.campos{
+    padding-top: 10px;
+    text-align: center;
+}
+.form-control{
+    margin-top: 20px;
+}
+#user,#pass{
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+#user:focus{
+    height: 40px;
+    border: 4px dotted blue
+}
+#submit{
+    height: 30px;
+    width: 80px;
+    background-color: rgb(90, 90, 211);
+    color: aliceblue;
+    border-radius: 5px;
+    border:none;
+}
+#submit:hover{
+    background-color: rgb(219, 219, 230);
+    color: rgb(13, 13, 14);
+    border:1px solid black;
+    transform: rotateX(10deg);
+}

@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(186, 173, 173);
+}
+#contenedor{
+    width: 200px;
+    height: 200px;
+   /* background: linear-gradient(red 50%,green 100%);*/
+    margin: auto;
+    background: linear-gradient(yellow 20%,red, blue);
+}
+.sombra{
+/*
+box-shadow:;
+ 1er parametro : eje x (default derecha)
+ 2do parametro : eje Y (default abajo)
+ 3er parametro : blur (difuminación)
+ 4to parametro : spread (propagación)
+ 5to parametro : color
+*/
+    box-shadow: 20px 20px 10px -10px yellow;
+}
+
+.sombra_texto{
+    /*
+ 1er parametro : eje x (default derecha)
+ 2do parametro : eje Y (default abajo)
+ 3er parametro : blur (difuminación)
+ 4to parametro : color
+*/
+    text-shadow: 10px 10px 5px yellow;
+}
+#contenedor2{
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.sombra2{
+    box-shadow: 10px 20px 10px 10px rgb(38, 57, 77) ;
+    background: linear-gradient(to right,red 33.3%,white 33.3% 66.6%,red 66.6% 100%);
+}
+.sombra2:hover{
+    background: linear-gradient(to top,red 33.3%,white 33.3% 66.6%,red 66.6% 100%);
+}
+.circulo{
+    width: 200px;
+    height: 200px;
+    margin: 60px auto;
+    border-radius: 50%;
+    background: radial-gradient(red 33.3%,white 33.3% 66.6%,red 66.6% 100%);
+    filter:blur(5px) grayscale(100%);
+}
+.circulo:hover{
+    width: 200px;
+    height: 200px;
+    background: blue;
+    filter:none;
+}
+h1:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,55 @@
+.bg-box{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    /* para mover este elemento por todo el navegador */
+    position: relative;
+    /* al agregar un position a un element este nos da la opcion de usar lo siguiente
+     top feft right botton
+    */
+    top: 0;
+    left: 100px;
+    
+}
+.padre{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    position: relative;
+}
+.hijo{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(13, 14, 14);
+    position:absolute;
+    top:calc( 50% - 50px);
+    left:calc( 50% - 50px);
+}
+.bandera{
+    height: 98vh;
+    border: solid;
+    position:relative;
+}
+.green{
+    width: 35%;
+    height: 100%;
+    background-color: green;
+    float: left;
+}
+.red{
+    width: 65%;
+    height: 100%;
+    background-color: red;
+    float: right;
+}
+.escudo{
+    position: absolute;
+    left: calc(35% - 200px);
+    top: calc(50% - 200px);
+    width: 400px;
+    height: 400px;
+    background-image: url(../img/escudo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

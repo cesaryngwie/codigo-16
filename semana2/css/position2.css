@@ -1,0 +1,25 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    position: fixed;
+    width: 98.4vw;
+}
+nav{
+    background-color: #333;
+    padding: 10px;
+
+}
+ul li{
+    display: inline;
+}
+a{
+    color: azure;
+    text-decoration: none;
+}
+.cuerpo{
+    padding-top: 70px;
+}
+img{
+    width: 100%;
+}

@@ -1,0 +1,65 @@
+/* Usaré un selector de etiqueta (tag) */
+html {
+    font-size: 16px;
+}
+
+body {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem; /* 1.5 x 16 = 24px */
+}
+
+
+
+/* Desde aquí quiero usar selectores de clase (class) */
+.solid {
+    border-style: solid;
+    border-color: rgb(42, 165, 89);
+    border-width: 7px;
+}
+
+.dashed {
+    border-style: dashed;
+    border-color: rgb(223, 214, 176);
+    border-width: 5px;
+    border-width: 5px;
+}
+
+.dotted {
+    /* border: abrevia 3 propiedades en una */
+    /* los 3 valores van en cualquier orden */
+    border: dotted blue 4px;
+}
+
+.left_solid {
+    border-left: solid red 4px;
+}
+
+.right-dotted {
+    border-right: dotted rgb(255, 192, 196) 6px;
+}
+
+.top-dashed {
+    border-top: dashed 2px gray;
+}
+
+.bottom-double {
+    border-bottom: double 5px red;
+}
+
+.bruno {
+    border-style: solid dashed dotted double;
+    border-width: 5px;
+    border-color: rgb(255, 255, 0) rgb(255, 0, 195);
+}
+.cesar {
+    padding: 20px;
+    border-style: solid dashed dotted double;
+    border-width: 5px;
+    border-color: rgb(255, 123, 0) rgb(0, 255, 26) rgb(55, 0, 255) rgb(16, 17, 6);
+}

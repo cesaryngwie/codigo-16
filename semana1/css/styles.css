@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Blaka';
+    src: url("../fonts/Blaka/Blaka-Regular.ttf");
+}
+@font-face {
+    font-family: 'Blaka';
+    src: url("../fonts/Blaka/Blaka-Regular.ttf");
+}
+body{
+    font-family: 'Blaka', Helvetica, Arial, sans-serif;
+    background-color: aliceblue;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+  
+}
+h2{
+    font-size: 40px;
+    text-decoration: overline;
+    font-family: 'NanumMyeongjo-bold';
+    margin-bottom: 10px;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+h3{
+    font-size: 35px;
+    background-color: rgb(80, 55, 143);
+    color:rgb(246, 246, 245);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+th{
+    background-color: antiquewhite;
+}
+tr{
+    text-decoration: underline;
+}
